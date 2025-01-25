@@ -72,7 +72,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "07e28edb80900c19c28f1072f2e8aeca7fa06b23cd4169cefe1af5aa3260783f"
 
 [[package]]
-name = "glide-client"
+name = "glide-cli"
 version = "0.1.0"
 dependencies = [
  "regex",
@@ -302,6 +302,7 @@ checksum = "adb9e6ca4f869e1180728b7950e35922a7fc6397f7b641499e8f3ef06e50dc83"
 [[package]]
 name = "utils"
 version = "0.1.0"
+source = "git+https://github.com/ngpal/glide-utils-rs.git#8c4a06ae48c046cbbca3f034babf4f26eb60a004"
 dependencies = [
  "regex",
  "tokio",

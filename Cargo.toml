@@ -6,4 +6,4 @@ edition = "2021"
 [dependencies]
 regex = "1.11.1"
 tokio = { version = "1.42.0", features = ["full"] }
-utils = { path = "../utils"}
+utils = { git = "https://github.com/ngpal/glide-utils-rs.git"}
