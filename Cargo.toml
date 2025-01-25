@@ -13,4 +13,3 @@ utils = { git = "https://github.com/ngpal/glide-utils-rs.git"}
 [profile.dist]
 inherits = "release"
 lto = "thin"
-
